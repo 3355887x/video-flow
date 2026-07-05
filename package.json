@@ -1,0 +1,14 @@
+{
+  "name": "video-flow",
+  "version": "0.1.0",
+  "description": "AI 视频工作流工具 — 写脚本 → 配音 → 剪映草稿",
+  "main": "main.js",
+  "scripts": {
+    "script": "node main.js script",
+    "audio": "node main.js audio",
+    "all": "node main.js all"
+  },
+  "dependencies": {
+    "pexels": "^1.4.0"
+  }
+}
